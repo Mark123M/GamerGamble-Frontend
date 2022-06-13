@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div id="navitems">
+                <li>
+                    <div>
+                        <img id = "icon" src="images/Orange and White Creative Dice Gaming Logo 1.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img id="logo" src="images/image 5.png" alt="">
+                    </div>
+                    <div id="leaguenav">
+                        <a href="leaguebets.html">League of Legends</a>
+                    </div>
+                    
+                   
+                </li>
+                <li>
+                    <div>
+                        <img id="logo" src="images/Rectangle 8.png" alt="">
+                    </div>
+                    <div id="csgonav">
+                        <a href="csgobets.html">CS:GO</a>
+                    </div>
+                  
+                  
+                </li>
+                <li>
+                    <div>
+                        <img id="logo" src="images/Rectangle 9.png" alt="">
+                    </div>
+                   <div id ="valorantnav">
+                        <a href = "valorantbets.html">Valorant</a>
+                   </div>
+                    
+                    
+                </li>
+
+            </div>
+        </nav>
+        <div class="profile">
+            <div id="profilepic">
+                <img src="images/image 6.png" alt="">
+            </div>
+            <div id="profilestats">
+                <p>
+                    <b>Username: NotAnAddict1337</b><br>Balance(CAD):
+                </p>
+                <p id="balance" style="color:white;">
+                    275
+                </p>
+               
+    
+            </div>
+        </div>
+        <div class="actions">
+            <p id="firstaction"><b>Bets</b></p>
+            
+            <p id="action"><b>Add Funds:</b></p>
+            <input type="text" id="deposit" style="font-size:16px;margin-left: 16px;" name="name" class="form-control" placeholder="Enter Amount" required>
+            <input type="button" style="width:80px;height:32px; margin-left:16px;" value="Save" id="btn" >
+
+            <p id="action"><b>Cash Out</b></p>
+        </div>
+        <div class="bets" style="overflow-y:scroll;">
+            <div id="bet">
+                <div>
+                    <img id="logo" src="images/image 5.png" alt="">
+                </div>
+                <div id="info">
+                    <p id = "series"><b>LCS Week 1:</b></p>
+                    <p><b>Evil Geniuses</b></p>
+                    <p><b>Bet Placed: -$100 CAD</b></p>
+                </div>
+                <div id="results">
+                    <p id = "outcome"><b>Outcome:</b></p>
+                    <p id="score"><b>3-2 Win</b></p>
+                </div>
+                <div>
+                    <p id = "outcome" style="margin-left:120px;margin-top: 45px;"><b>+$275</b>
+                </div>
+            </div>
+            <div id="bet">
+                <div>
+                    <img id="logo" src="images/Rectangle 8.png" alt="">
+                </div>
+                <div id="info">
+                    <p id = "series"><b>ESL Pro League:</b></p>
+                    <p><b>MiBR  </b></p>
+                    <p><b>Bet Placed: -$100 CAD</b></p>
+                </div>
+                <div id="results">
+                    <p id = "outcome"><b>Outcome:</b></p>
+                    <p id="score" style="color:rgb(209, 30, 30)"><b>10-16 Loss</b></p>
+                </div>
+                <div>
+                        <p id = "outcome" style="margin-left:120px;margin-top: 45px;"><b>+$0</b>
+                </div>
+            </div>
+            <div id="bet">
+                <div>
+                    <img id="logo" src="images/Rectangle 9.png" alt="">
+                </div>
+                <div id="info">
+                    <p id = "series"><b>NA Week 5:</b></p>
+                    <p><b>Cloud9</b></p>
+                    <p><b>Bet Placed: -$100 CAD</b></p>
+                </div>
+                <div id="results">
+                    <p id = "outcome"><b>In Progress...</b></p>
+                </div>
+                <div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

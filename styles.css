@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1d2025;
+    color:white;
+    line-height: 1.5;
+}
+
+
+
+.navbar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 96px;
+    font-size: 30px;
+    width: 100%;
+}
+
+.navbar #navitems {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    min-width: 1000px;
+    background:#123556;
+
+}
+.navbar div li{
+    /*  margin: 0 1rem; */
+      padding: 1rem;
+   /*   background: blue; */
+    display: flex;
+
+}
+
+.navbar div li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #AFBBC7;
+    font-size: 20px;
+}
+
+#csgonav{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+#leaguenav{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#valorantnav{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#icon{
+    position: relative;
+    width: 220px;
+    height: 150px;
+    right: 200px;   
+}
+
+.profile{
+
+    height: 280px;
+    
+    display: flex;
+}
+
+#profilepic{
+    margin-top: 130px;
+    margin-left: 100px;
+
+}
+#profilepic img{
+    width: 170px;
+}
+
+
+#profilestats{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 150px;
+    font-size: 25px;
+    color: #AEEE98;
+}
+
+#matchlabel{
+    margin-top: 170px;
+    margin-left: 120px;
+    font-size: 25px;
+    color: #AFBBC7;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+
+}
+.actions #firstaction{
+    font-size: 25px;
+    color: #AEEE98;
+}
+.actions #action{
+    margin-left: 300px;
+    font-size: 25px;
+    color: #AEEE98;
+}
+.bets{
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 1250px;
+    height: 50vh;
+}
+
+#bet{
+    width: 80vw;
+    height: 162px;
+    background: #123556;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#bet img{
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#info,#results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    color:#AEEE98;
+    font-size: 25px;
+
+}
+#results{
+    margin-left: 200px;
+}
+#series{
+    font-size: 40px;
+    font-style:italic;
+}
+
+#outcome{
+    font-size: 40px;
+}
+
+#score{
+    font-size: 35px;
+    color: #26B410;
+}
+
+#gametitle{
+
+    color:#AFBBC7;
+    font-size: 70px;
+    width: 1000px;
+    text-align: center;
+}
+#back{
+    width: 300px;
+}
+#back img{
+    position: relative;
+    width: 120px;
+    height: 100px;  
+    padding-left: 100px;
+}
+
+#fulllogo{
+    width:450px;
+    margin-left: 0px;
+}
+#vallogo img{
+    width: 100px;
+}
+
+.placingbets{
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 1250px;
+    height: 65vh;
+}
+
+#team1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#AEEE98;
+    font-size: 30px;
+    margin-left: 100px;
+    text-align: left;
+    
+}
+#team2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    color:#AEEE98;
+    font-size: 30px;
+    text-align: right;
+}
+
+#team{
+    font-size: 35px;
+}
+input{
+    width: 150px;
+    height: 25px;
+}
+
+#betbutton{
+    display: flex;
+    justify-content: center;
+    
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 93px;
+}
+
+#btn{
+    height: 50px;
+    border-radius: 12px;
+}
+
+#btn:hover{
+    background-color: #63cc52;
+}
